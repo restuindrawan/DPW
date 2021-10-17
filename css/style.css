@@ -231,4 +231,16 @@ body {
     font-size: 14px;
     color: #fff;
     margin-top: 10px;
+    cursor: pointer;
+}
+
+.spacer {
+    width: 80%;
+    height: auto;
+    float: left;
+    padding: 8px;
+    border-left: 7px solid #DB292F;
+    border-radius: 0 10px 10px 0;
+    background-color: #e0e0e0;
+    font-size: 18px;
 }
