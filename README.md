@@ -5,7 +5,7 @@
 #### 19104017 - I Putu Restu Indrawan P
 
 ## Pages
-![Live Preview](https://restuindrawan.github.io/DPW/)
+[Live Preview](https://restuindrawan.github.io/DPW/)
 
 ## Preview
 
