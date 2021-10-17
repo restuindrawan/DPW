@@ -147,14 +147,19 @@ body {
     overflow: hidden;
 }
 
-.wrapper {
+.wrapper-nos {
     width: auto;
     height: auto;
     overflow: hidden;
+    clear: both;
 }
 
 .mt-50 {
     margin-top: 50px;
+}
+
+.mt-25 {
+    margin-top: 25px;
 }
 
 .capt span {
@@ -251,6 +256,17 @@ body {
     font-size: 18px;
 }
 
+.spacer-s {
+    width: 9%;
+    height: auto;
+    float: left;
+    padding: 8px;
+    border-left: 7px solid #DB292F;
+    border-radius: 0 10px 10px 0;
+    background-color: #e0e0e0;
+    font-size: 18px;
+}
+
 .sertification {
     width: 100%;
     height: auto;
@@ -291,4 +307,84 @@ body {
     height: auto;
     background-color: #fff;
     padding: 5%;
+}
+
+.spacer-blank {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    border-bottom: 3px solid #DB292F;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.title-blank {
+    font-weight: bold;
+    font-size: 22px;
+    border-bottom: 8px solid #DB292F;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.testimoni {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    margin-bottom: 50px;
+}
+
+.testimoni ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 50px;
+}
+
+.testimoni li {
+    background-color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    padding: 5%;
+}
+
+.pict {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.pict img {
+    width: 100%;
+}
+
+.name {
+    color: #DB292F;
+    font-size: 16px;
+}
+
+.job {
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    padding: 5px 15%;
+    box-sizing: border-box;
+    bottom: 0;
+    float: left;
+    clear: both;
+    background-color: #bb2429;
+    color: #fff;
+    font-size: 14px;
+}
+
+.desc-p {
+    margin-top: 10px;
+    font-size: 14px;
 }
