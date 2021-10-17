@@ -147,6 +147,12 @@ body {
     overflow: hidden;
 }
 
+.wrapper {
+    width: auto;
+    height: auto;
+    overflow: hidden;
+}
+
 .mt-50 {
     margin-top: 50px;
 }
@@ -243,4 +249,46 @@ body {
     border-radius: 0 10px 10px 0;
     background-color: #e0e0e0;
     font-size: 18px;
+}
+
+.sertification {
+    width: 100%;
+    height: auto;
+    /* float: left; */
+}
+
+.sertification ul {
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 50px;
+}
+
+.sertification li {
+    background-color: #fff;
+    border-radius: 25px;
+    border: 3px solid #DB292F;
+    overflow: hidden;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.title {
+    width: 100%;
+    height: auto;
+    background-color: #DB292F;
+    color: #fff;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.desc {
+    width: auto;
+    height: auto;
+    background-color: #fff;
+    padding: 5%;
 }
